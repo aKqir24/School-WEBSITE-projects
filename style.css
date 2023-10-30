@@ -1,0 +1,19 @@
+
+/*/ Body & Header Styles Properties /*/
+
+#wisdom{cursor: default; color: black}
+#parawis{cursor:default; float:center; font-family: monospace; font-size: 1.9ic; margin-right: 3px; padding-left: 1cap; padding-right: 1cap}
+#imgicn1{animation-name: fadeInplusslideUP; animation-duration: 3.6s; height: 1pc;}
+#imgicn2{animation-name: fadeInplusslideUP; animation-duration: 3.6s; height: 1.3pc}
+#back{cursor: pointer; margin-bottom: 1px;}
+.title{cursor:default; animation-name: slideLeft; animation-duration: 1.5s; text-align: center; font-family: 'Ouiksand'; font-size: 3ic; margin-bottom: -0.5pc; color: rgb(41, 37, 37); padding-bottom: 2px}
+.div1 a{text-decoration: none;}
+.bdy{animation-name: slideRight; animation-duration: 2s; background-image: url(https://images.pexels.com/photos/8797307/pexels-photo-8797307.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1); background-size: cover; background-attachment: fixed; background-repeat: no-repeat}
+.copyright{font-family: Poppins; color:rgb(121, 126, 122); margin-top: 7ic; cursor:default}
+
+/*/ Main Website Animations /*/
+
+@keyframes slideLeft{from{transform: translateX(100px);}}
+@keyframes slideRight{from{transform: translateX(-100px);}}
+@keyframes fadeIn{from{opacity: 0;}}
+@keyframes fadeInplusslideUP{from{transform: translateY(100px); opacity: 0;}}
