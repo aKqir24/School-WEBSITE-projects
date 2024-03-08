@@ -1,4 +1,6 @@
 @font-face{ font-family: Poppins; src: url(Poppins.ttf)}
+@font-face{ font-family: Ouiksand; src: url(Ouiksand.ttf)}
+
 /*/ Body & Header Styles Properties /*/
 #para{cursor:default; float:center; font-family: monospace; font-size: 1.6ic; background-color: rgba(208, 255, 0, 0.644); margin-right: 3px; padding-left: 1cap; padding-right: 1cap }
 #mainbtn{text-align: center; height: 3.5cap; width: 12cap; font-family: Poppins; font-style: SemiBold; font-size: large; border: 2px; border-style: solid; border-color: rgb(55, 59, 59); box-shadow: 0pc 1px 1lvi rgb(18, 20, 20); padding: 0; text-align: center}
